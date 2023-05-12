@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sortHighPrior"
+        android:title="Sort by priority(High)" />
+    <item
+        android:id="@+id/sortLowPrior"
+        android:title="Sort by priority(Low)" />
+    <item
+        android:id="@+id/itemDeleteAll"
+        android:icon="@drawable/baseline_close_24"
+        android:title="Delete All Tasks"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sortByDateEarly"
+        android:title="Sort by date(early)" />
+    <item
+        android:id="@+id/sortByDateLate"
+        android:title="Sort by date(late)" />
+</menu>
